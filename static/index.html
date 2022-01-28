@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Base</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app">
+    
+    <!-- Example Background image -->
+    <div class="wrap-background-image" style="width: 500px; height: 500px;"> <!-- remove style inline -->
+      <picture class="background-image">
+        <source data-device="desktop" media="(min-width: 1280px)" srcset="images/example-desktop.jpg">
+        <source data-device="tablet" media="(min-width: 768px)" srcset="images/example-tablet.jpg">
+        <source data-device="mobile" media="(min-width: 1px)" srcset="images/example-mobile.jpg">
+        <img src="images/example-desktop.jpg" alt="Banner principal" style="display: none;">
+      </picture>
+    </div>
+    
+    <!-- Example full height -->
+    <section class="screen-height"></section>
+
+  </div>
+  <script src="js/scripts-min.js"></script>
+</body>
+</html>
