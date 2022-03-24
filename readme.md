@@ -39,7 +39,7 @@ Após fazer o download, basta colocar os arquivos gerados na pasta `assets/image
 De um modo geral os arquivos `.js` já existentes não precisam ser alterados, a não ser que haja necessidade. A pasta Js possui subpastas descritas abaixo.
 
 ##### Components
-Está pasta devemos seguir a metodologia [Atomic design](https://vidadeproduto.com.br/atomic-design/), e é aonde você vai estar colocando suas funções dos componentes como: `carrousel`, `accordion`, `menu` e etc.
+Está pasta é aonde você vai estar colocando suas funções dos componentes como: `carrousel`, `accordion`, `menu` e etc.
 Conforme esse exemplo de arquivo: `menu-mobile.js`
 ```
 const menuMobile = () => {

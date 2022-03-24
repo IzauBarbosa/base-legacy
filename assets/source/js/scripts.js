@@ -6,15 +6,9 @@ $(document).ready(() => {
   targetBlank()
   currentDevice = device()
 
-  // components atoms
+  // components
   screenHeight()
-
-  // components molecules
   backgroundImage()
-
-  // components organisms
-
-  // components templates
 
   // components pages
 })
@@ -26,9 +20,7 @@ $(window).on('resize', () => {
     beforeDevice = currentDevice
   }
 
-  // components atoms
+  // components
   screenHeight()
-
-  // components molecules
   backgroundImage()
 })
